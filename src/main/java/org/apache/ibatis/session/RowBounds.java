@@ -16,7 +16,7 @@
 package org.apache.ibatis.session;
 
 /**
- * @author Clinton Begin
+ * 限定查询的 行 范围
  */
 public class RowBounds {
 

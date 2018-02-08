@@ -24,14 +24,9 @@ import org.apache.ibatis.reflection.property.PropertyTokenizer;
 import org.apache.ibatis.session.Configuration;
 
 /**
- * An actual SQL String got from an {@link SqlSource} after having processed any dynamic content.
- * The SQL may have SQL placeholders "?" and an list (ordered) of an parameter mappings 
- * with the additional information for each parameter (at least the property name of the input object to read 
- * the value from). 
- * </br>
- * Can also have additional parameters that are created by the dynamic language (for loops, bind...).
- *
- * @author Clinton Begin
+ * 在处理了任何动态sql后,从{@link SqlSource} 获取的一个真实的SQL字符串,
+ * 该SQL可能有SQL占位符"?",和每个参数的附加信息(至少是输入参数的属性名来读取值)的映射列表(有序)
+ * 还可以使用动态语言创建的其他参数 (for loops, bind...).
  */
 public class BoundSql {
 
